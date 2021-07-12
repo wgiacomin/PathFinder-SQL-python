@@ -20,6 +20,6 @@ for index in df.index:
   relations[df.iloc[index, 0]].add(df.iloc[index, 2])
 
 teste = PathFinder(relations)
-teste.print_all_path('table1', 'table2')
+teste.print_all_paths('table1', 'table2')
 ```
 

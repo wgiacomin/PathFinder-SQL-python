@@ -8,7 +8,7 @@ class PathFinder:
     def get_vertices(self):
         return list(self.relations.keys())
 
-    def print_all_path(self, origin, destination):
+    def print_all_paths(self, origin, destination):
         visited = dict.fromkeys(set(relations.keys()), False)
         path = list()
         self.__print_all_paths_util(origin, destination, visited, path)
