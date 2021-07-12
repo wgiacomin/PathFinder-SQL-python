@@ -4,7 +4,7 @@ PathFinder is a generic class that shows all the possible paths from a source to
 
 To use it, its necessary to feed all the existent connections between the tables as a dictionary of sets.
 
-For the Postgres, there is a query attached in this repo retrieved from *https://dataedo.com/kb/query/postgresql/list-of-foreign-keys-with-columns.*
+For the Postgres database, there is a query in this repo, retrieved from *https://dataedo.com/kb/query/postgresql/list-of-foreign-keys-with-columns* that list all relations between tables.
 
 Example:
 
